@@ -4,15 +4,31 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <title>ARIA Roles Example</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<img alt=''/>
-	<h1></h1>
-	<ul></ul>
-	<li></li>
-	<nav></nav>
+	<nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#">Home</a></li>
+            <li role="listitem"><a href="#">About</a></li>
+            <li role="listitem"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+	<!-- Heading -->
+    <h1 role="heading">Welcome to ARIA Roles Example</h1>
+
+    <!-- Image with ARIA role -->
+    <img src="image.jpg" alt="A beautiful landscape" role="img">
+
+    <!-- Brief description -->
+    <p>This page demonstrates the correct use of ARIA roles with HTML elements.</p>
+
+	<ul role="list">
+        <li role="listitem">Accessibility is important</li>
+        <li role="listitem">ARIA improves usability</li>
+        <li role="listitem">Use semantic HTML whenever possible</li>
+    </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
